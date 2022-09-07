@@ -1,0 +1,388 @@
+img{
+        max-width: 100%;
+    }
+main {
+    background-color: #EEF2F2;
+    width: 100%;
+}
+body{
+    width: 100%;
+}
+
+
+footer{
+    height: auto;
+    width: 100%;
+    background-color: #2A3F49;
+    margin-top: 10px;
+}
+
+a:link{
+    text-decoration: none;
+    color: #419B49;
+}
+
+a:visited{
+    color: #419B49;
+}
+
+a:hover{
+    color: #76C377;
+}
+
+button{
+    background-color: transparent;
+    padding: 0px 10px 5px 10px;
+    text-align: center;
+    font-size: 1.250em;
+    width: 111px;
+    margin: 20px 0px 20px 20px;
+    color: #419B49;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 8px;
+    border-color: #419B49;
+}
+
+button:hover{
+    border-color: #76C377; 
+}
+
+h2{
+    font-family: 'Crimson Text', serif;
+    font-weight: 600;
+    font-size: 2.125em;
+    line-height: 1.5;
+    color: #2E5180;
+}
+
+h3{
+    font-family: 'Crimson Text', serif;
+    font-weight: 700;
+    font-size: 1.750em;
+    line-height: 1.5;
+    color: #2E5180;    
+}
+
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 1.000em;
+    line-height: 1.5;
+}
+
+form{
+    color: #FFF;
+}
+
+input[type=text] {
+  color: white;
+}
+
+input {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 2px solid #FFF;
+}
+
+.inputline{
+    margin-top: 15px;
+    width: 80%;
+}
+
+.mainwrapper{
+    width: 86%;
+    margin: 131px auto 0px auto;
+    
+}
+.aboutmainwrapper{
+    width: 86%; /* countering padding on col3 */
+    margin: 0px auto; /* floast */
+}
+.lightgrey{
+    background-color: #DEDEDE;
+}
+.margin20{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.col1{
+    width: 100%;
+}
+.col2{
+    height: 300px;
+    width: 60%;
+    overflow: hidden;
+}
+.col3{
+    width: 45%; /* adding padding above*/
+    position: relative; /* countering absolute position of some divs */
+}
+.col4{
+    width: 20%;
+    margin-right: 20px;
+}
+.col4 img{
+    width: 100%;
+    height: auto;
+}
+.col5{
+    width: 70%;
+}
+.col6{
+    overflow: hidden;
+    height: 587px;
+    width: 80%;
+    margin: 0px auto;
+}
+.col7{
+    width: 50%;
+    position: relative;
+    height: 616px;
+}
+.col8{
+    display: inline-block;
+    width: 50%; /* adding padding above*/
+    position: relative; /* countering absolute position of some divs */
+}
+.col9{
+    display: inline-block;
+    width: 50%; /* adding padding above*/
+    position: relative; /* countering absolute position of some divs */
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.col10{
+    display: inline-block;
+    width: 42%; /* adding padding above*/
+    position: relative; /* countering absolute position of some divs */
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.btn{
+    width: 40%;
+}
+.productheight{
+    height: 400px;
+    overflow: hidden;
+}
+.row1{
+   padding: 15px 0px;
+    width: 100%;
+}
+.row2{
+    display: inline-block;
+    width: 50%;
+    position: relative;
+}
+.row3{
+    width: 100%;
+    margin-top: 40px;
+}
+.row4{
+   padding: 15px 0px;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float:right;
+}
+.link{
+    width: 200px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    text-align: left;
+    font-size: 1.500em;
+}
+.absolute{
+    position: absolute;
+    top: -40px;
+    right: 0;
+}
+.absolute2{
+    position: absolute;
+    top: -90px;
+    right: 0;
+}
+.absolute3{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.absolute4{
+    position: absolute;
+    top: 0;
+    left: 15%;
+}
+.cliffimg{
+    position: absolute;
+    top: -72px;
+    width: 100%;
+}
+.windmillimg{
+    position: absolute;
+    top: -20px;
+}
+.windmillimg2{
+    width: 100%;
+    position: absolute;
+    top: -20px;
+}
+.thumnail{
+    width: 25%;
+}
+
+.hero{
+    width: 96%;
+    background-image:url("../Images/WindCatcherBoatsAndSea_sm.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 300px;
+    margin: 0px auto;
+}
+
+.breadcrumb{
+    width: 86%;
+    margin: 131px auto 10px auto;
+    font-size: 0.750em;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+
+.breadcrumb > ul > li{
+    display: inline-block;
+}
+
+.ftcol1{
+    width: 40%;
+    margin: 30px 0px;
+}
+.ftcol2{
+    width: 30%;
+    margin: 30px 0px;
+}
+.ftcol3{
+    display: none;
+}
+.ftheader{
+    color: #FFF;
+}
+
+.ftnav{
+    font-size: 1.125em;
+    line-height: 1.5;
+    color: lightgray;
+     font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    margin: 10px 20px;
+}
+
+.social{
+    width: 30px;
+    display: inline-block;
+    margin:10px;
+}
+.social-icons{
+    width: 100%;
+}
+
+.footercontainer{
+    width: 75%;
+    margin: 0px auto;
+}
+
+.contactform{
+    margin-top: 30px;
+}
+#logo{
+    margin: 20px 0px;
+    width: 100%;
+    height: auto;
+}
+#donate{
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 8px;
+}
+
+ol ul{
+    list-style: circle;
+}
+
+/*nav > ul{
+    width: 100%;
+    list-style: none;
+    display: inline-block;
+}
+*/
+/*nav ul li {
+    text-align: center;
+    font-size: 24px;
+    width: 85px;
+    margin: 20px;
+    color: #419B49;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+}
+*/
+.nav-area{
+    float:left;
+}
+.menu-wrapper{
+    max-width: 96%;
+    margin: 0 auto;
+}
+.nav-area{
+    z-index: 1;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    transition: top .6s;
+    background: rgba(238,242,242,0.7);
+    padding: 10px;
+    overflow: hidden;
+}
+.logocontainer{
+    display: inline-block;
+    margin: 15px;
+    width: 190px;
+}
+.logocontainer > a > img{
+    width: 100%;
+    height: auto;
+}
+.right-nav{
+    overflow: hidden;
+    list-style: none;
+}
+.right-nav li{
+    float: left;
+    margin-left: 26px;
+    margin-top: 30px;
+}
+.right-nav li a{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.250em;
+    font-weight: 600;
+    text-transform: uppercase
+}
+.nav-area.animate{
+    top: -110px;
+} 
+.nav-area.sticky{
+    top: 0;
+    z-index: 99; 
+}

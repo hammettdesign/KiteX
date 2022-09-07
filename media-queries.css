@@ -1,0 +1,187 @@
+/* MQ 1024 px Desktop */ 
+@media only screen and (max-width: 1163px) {
+    img{
+        max-width: 100%;
+    }
+    .mainwrapper{
+        width:100%;
+    }
+    .aboutmainwrapper{
+        width: 90%;
+    }
+    .cliffimg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 764px;
+    height: auto;
+    }
+    .windmillimg{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 764px;
+        height: auto;
+    }
+    .absolute{
+        position: unset;
+    }
+    .col2{
+        width: 100%;
+        height: 280px;
+    }
+    .col1{
+        width: 100%;
+    }
+    .row2{
+        display: block;
+        clear: both;
+        width: 100%;
+        height: 320px;
+    }
+    .row1{
+        overflow: hidden;
+    }
+    .intro{
+        width:50%;
+        margin: 0px 20px
+    }
+    .absolute{
+        position: unset;
+    }
+    .absolute2{
+        position: unset;
+    }
+    .col6{
+        overflow: hidden;
+        width: 100%;
+        height: 600px;
+    }
+    .col3{
+        width: 50%;
+        margin: 0px 20px;
+        overflow: hidden;
+        padding:0;
+    }
+    .col7{
+        overflow: hidden;
+        padding: 0;
+        width: 45%;
+        height: 653px;
+    }
+    .col8{
+        text-align: center;
+        display: block;
+        clear: both;
+        overflow: hidden;
+        width: 100%;
+    }
+    .col9{
+    display: inline-block;
+    width: 50%; /* adding padding above*/
+    position: relative; /* countering absolute position of some divs */
+    margin-left: 20px;
+    margin-right: 20px;
+}
+    .col10{
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 40%;
+    }
+    .absolute3{
+        position: unset; 
+    }
+    .windmillimg2{
+        position: absolute;
+        top: -2px;
+        left: -18px;
+        
+    }
+    .footercontainer{
+        width: 90%;
+    }
+}
+/*MQ 860 px Tablet */
+@media only screen and (max-width: 860px) {
+    .intro{
+        width: 90%;
+    }
+    .row2{
+        width: 100%;
+    }
+    .row4{
+        width: 100%;
+        padding: 0;
+    }
+    .cliffimg{
+        width: 1104px;
+        top:-30px;
+    }
+    .col3{
+        width: 90%;
+        margin: 0px 20px;
+    }
+    .thumnail{
+        width: 100%;
+    }
+    .thumbnail-fill{
+        width: 100%;
+    }
+    .col7{
+        display: none;
+    }
+    .social{
+       width: 18%
+    }
+    .col9{
+        width: 90%;
+        text-align: center;
+    }
+    .col10{
+        display: none;
+    }
+    .col9 ul{
+        width: 200px;
+        text-align: center;
+        margin: 10px auto !important;
+        
+    }
+    
+}
+/* MQ 480 px Mobile */
+@media only screen and (max-width: 500px){
+    footer{
+        display: none;
+    }
+    .col2{
+        height: 232px;
+    }
+    .row2{
+        height: 232px;
+    }
+    .cliffimg{
+        top: 0px
+    }
+    .btn{
+        width: 50%;
+    }
+    .nav-area.animate{
+    top: -240px;
+    }
+    .dontate{
+        display: none;
+    }
+    .breadcrumb{
+        margin-top:200px;
+    }
+    .mobile-menu{
+        margin-right:13%;
+    }
+    .right-nav li{
+        margin-left: 12px;
+    }
+    .btn{
+        width: 60%;
+        height: 40px;
+    }
+}
