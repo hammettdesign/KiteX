@@ -176,8 +176,8 @@ input {
     width: 100%;
 }
 .row2{
-    display: inline-block;
-    width: 50%;
+    height: 300px;
+    width: 100%;
     position: relative;
 }
 .row3{
@@ -186,6 +186,11 @@ input {
 }
 .row4{
    padding: 15px 0px;
+}
+.row5{
+    display: inline-block;
+    width: 50%;
+    position: relative;
 }
 .float-left{
     float: left;
