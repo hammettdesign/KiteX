@@ -191,7 +191,7 @@ input {
 }
 .row5{
     width: 100%;
-    height:300px;
+    height: auto;
     position: relative;
 }
 .intro{
