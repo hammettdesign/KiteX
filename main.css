@@ -96,7 +96,8 @@ input {
 }
 
 .mainwrapper{
-    width: 86%;
+    width: 100%;
+    height: auto;
     margin: 131px auto 0px auto;
     
 }
@@ -172,8 +173,9 @@ input {
     overflow: hidden;
 }
 .row1{
+   margin: 40px;
    padding: 15px 0px;
-    width: 100%;
+    width: auto;
 }
 .row2{
     height: 300px;
